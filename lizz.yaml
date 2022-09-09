@@ -1,1 +1,2 @@
 name: ingress-nginx
+serviceAccountName: ingress-nginx-serviceaccount
