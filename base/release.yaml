@@ -4,6 +4,7 @@ metadata:
   name: ingress-nginx
   namespace: {{index . "namespace"}}
 spec:
+  serviceAccountName: {{index . "serviceAccountName"}}
   releaseName: ingress-nginx
   chart:
     spec:
