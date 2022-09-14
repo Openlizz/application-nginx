@@ -1,2 +1,3 @@
-name: ingress-nginx
-serviceAccountName: ingress-nginx-serviceaccount
+name: longhorn
+namespace: longhorn-system
+serviceAccountName: longhorn-serviceaccount
